@@ -5,6 +5,6 @@ node {
    
   stage('Mvn Package'){
 	   // Build using mave
-	   sh 'mvn package'
+	   bat 'mvn package'
    }
 }
