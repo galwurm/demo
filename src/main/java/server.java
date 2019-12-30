@@ -13,6 +13,10 @@ public class server {
             return "Hello: " + request.params(":name");
         });
 
+        get("/hello/:name", (request, response) -> {
+            return "Hello: " + request.params(":name");
+        });
+
         initdb();
     }
 
@@ -26,6 +30,5 @@ public class server {
             MongoCollection coll = database.getCollection("grades");
 
             System.out.println(coll.countDocuments());
-
         }
     }
