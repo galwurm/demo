@@ -1,1 +1,1 @@
-"# demo" - practicind docker build and jenkins on java application
+"# demo" - practicing docker build and jenkins on java application
